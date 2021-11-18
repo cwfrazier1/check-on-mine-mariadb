@@ -1,7 +1,7 @@
 <?
-	$dbHost = 'sql.checkonmine.com';
+	$dbHost = 'localhost';
 	$dbUser = 'root';
-	$dbPassword = '5cJiVspoAndrkc';
+	$dbPassword = '5Rq^U&FvX$8JpG';
 	$dbName = 'com';
 
 	$conn = new mysqli($dbHost, $dbUser, $dbPassword, $dbName);
