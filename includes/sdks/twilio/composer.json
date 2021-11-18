@@ -1,0 +1,12 @@
+{
+    "name": "ubuntu/twilio",
+    "require": {
+        "twilio/sdk": "^6.21"
+    },
+    "authors": [
+        {
+            "name": "Chester Frazier",
+            "email": "cwfrazier@cwfrazier.com"
+        }
+    ]
+}
