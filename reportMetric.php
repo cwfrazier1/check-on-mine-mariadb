@@ -23,6 +23,9 @@
 		{
 			$timeDifference = $row['timeDifference'];
 			$previousTs = $row['previousTs'];
+
+			if ($previousTs == '-1')
+				$previousTs = time() - 1;
 		}
 
 		$query = "insert into actions (comId, metric, metricValue, timeoutDifference, previousTs) values ('$id', '$metric', '$value', $timeDifference, '$previousTs')";

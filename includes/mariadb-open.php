@@ -1,7 +1,7 @@
 <?
-	$dbHost = 'localhost';
-	$dbUser = 'root';
-	$dbPassword = '5Rq^U&FvX$8JpG';
+	$dbHost = 'mdb.cwfrazier.com';
+	$dbUser = 'admin';
+	$dbPassword = '9ZGecLr5hADwek';
 	$dbName = 'com';
 
 	$conn = new mysqli($dbHost, $dbUser, $dbPassword, $dbName);
